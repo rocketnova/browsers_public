@@ -1,0 +1,87 @@
+{
+  "policies":{
+    "AutofillAddressEnabled": false,
+    "AutofillCreditCardEnabled": false,
+    "DisableFirefoxStudies": true,
+    "DisablePocket": true,
+    "DisableTelemetry": true,
+    "DisplayBookmarksToolbar": "never",
+    "EnableTrackingProtection": {
+        "Value": true,
+	"Cryptomining": true,
+	"Fingerprinting": true,
+	"EmailTracking": true
+    },
+    "ExtensionSettings": {
+        "*": {
+	    "default_area": "navbar"
+        },
+	"uBlock0@raymondhill.net": {
+	    "comment": "uBlockOrigin",
+	    "installation_mode": "normal_installed",
+	    "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi"
+	},
+	"{d634138d-c276-4fc8-924b-40a0ea21d284}": {
+	    "comment": "1Password",
+	    "installation_mode": "normal_installed",
+	    "install_url": "https://addons.mozilla.org/firefox/downloads/latest/{d634138d-c276-4fc8-924b-40a0ea21d284}/latest.xpi"
+	},
+	"extension@one-tab.com": {
+	    "comment": "OneTab",
+	    "installation_mode": "normal_installed",
+	    "install_url": "https://addons.mozilla.org/firefox/downloads/latest/onetab/latest.xpi"
+	},
+	"{f7f203e0-9d1d-4557-891f-9865877c5b48}": {
+	    "comment": "Tabby Cat",
+	    "installation_mode": "normal_installed",
+	    "install_url": "https://addons.mozilla.org/firefox/downloads/latest/{f7f203e0-9d1d-4557-891f-9865877c5b48}/latest.xpi"
+	},
+	"@testpilot-containers": {
+	    "comment": "Firefox Multi-Account Containers",
+	    "installation_mode": "normal_installed",
+	    "install_url": "https://addons.mozilla.org/firefox/downloads/latest/@testpilot-containers/latest.xpi"
+	},
+	"wayback_machine@mozilla.org": {
+	    "comment": "Wayback Machine",
+	    "installation_mode": "normal_installed",
+	    "install_url": "https://addons.mozilla.org/firefox/downloads/latest/wayback_machine@mozilla.org/latest.xpi"
+	}
+    },
+    "FirefoxHome": {
+      "TopSites": false,
+      "SponsoredTopSites": false,
+      "Highlights": false,
+      "Pocket": false,
+      "SponsoredPocket": false,
+      "Snippets": false
+    },
+    "FirefoxSuggest": {
+        "WebSuggestions": false,
+	"SponsoredSuggestions": false,
+	"ImproveSuggest": false
+    },
+    "HttpsOnlyMode": "enabled",
+    "OfferToSaveLogins": false,
+    "Preferences": {
+        "browser.tabs.hoverPreview.enabled": {
+	    "Value": false,
+	    "Status": "user"
+	},
+	"browser.tabs.warnOnClose": {
+            "Value": false,
+            "Status": "user"
+        },
+        "privacy.globalprivacycontrol.enabled": {
+	    "Value": true,
+	    "Status": "user"
+	}
+    },
+    "SearchSuggestEnabled": false,
+    "UserMessaging": {
+        "ExtensionRecommendations": false,
+	"FeatureRecommendations": false,
+	"UrlbarInterventions": false
+    }
+  }
+}
+
